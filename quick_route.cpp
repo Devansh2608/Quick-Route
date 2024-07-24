@@ -31,7 +31,7 @@ public:
         Vertex* vtx = new Vertex();
         vtces[vname] = vtx;
     }
-
+//remove vertex function
     void removeVertex(const string& vname) {
         Vertex* vtx = vtces[vname];
         vector<string> keys;
